@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <at.grabner.circleprogress.CircleProgressView
+        android:id="@+id/circleProgressView"
+        android:layout_width="327dp"
+        android:layout_height="310dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        app:cpv_barColor="@color/CircleProgressViewBarColor"
+        app:cpv_maxValue="50000"
+        app:cpv_rimColor="@color/CircleProgressViewRimColor"
+        app:cpv_textColor="@color/CircleProgressViewTextColor"
+        app:cpv_textMode="Value"
+        app:cpv_textSize="85dp"
+        app:cpv_value="10000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
+
+</android.support.constraint.ConstraintLayout>
